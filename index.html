@@ -600,6 +600,20 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
+$(document).ready(function () {
+  // Toggle navbar on mobile
+  $('#menu').click(function () {
+    $(this).toggleClass('fa-times');
+    $('.navbar').toggleClass('nav-toggle');
+  });
+
+  // Close navbar when clicking a link (optional for better UX)
+  $('.navbar a').click(function () {
+    $('#menu').removeClass('fa-times');
+    $('.navbar').removeClass('nav-toggle');
+  });
+});
+
 
   </script>
   </body>
