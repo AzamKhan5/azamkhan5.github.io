@@ -641,6 +641,7 @@ header .navbar ul li a:hover {
   font-weight: 600;
   text-align: left;
   margin-left: 1rem;
+  text-shadow: 2px -1px 1px white;
 }
 .education .box-container .box .content p {
   font-size: 1.5rem;
@@ -676,6 +677,7 @@ header .navbar ul li a:hover {
     padding: 1rem;
     flex-wrap: wrap;
     flex: 0;
+    text-shadow: 2px -1px 1px white;
   }
   .education .btns {
     margin-top: 2rem;
