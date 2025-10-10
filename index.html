@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="style.css">
   <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <!-- Favicon -->
     <link id='favicon' rel="shortcut icon" href="azam.png" type="image/x-png">
 
@@ -40,23 +41,23 @@
   </script>
 </head>
 <body >
-  <!-- navbar starts -->
+ <!-- navbar starts -->
 <header>
         <a href="#home" class="logo"><i class="fab fa-python"></i> Azam Khan</a>
 
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
-            <ul class=" nav justify-content-end">
+            <ul class="nav">
             <li class="nav-item"><a class="active" href="#home">Home</a></li>
             <li class="nav-item"><a href="#about">About</a></li>
             <li class="nav-item"><a href="#skills">Skills</a></li>
             <li class="nav-item"><a href="#education">Education</a></li>
             <li class="nav-item"><a href="#experience">Experience</a></li>
-            <li class="nav-item"><a href="#work">Work</a></li>
+            <li class="nav-item"><a href="#projects">Projects</a></li>
             <li class="nav-item"><a href="#certificate">Certificates</a></li>
-            <li class="nav-item"><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+            <a href="#contact" class="contact-btn">Contact</a>
+            </nav>
 </header>
 <!-- navbar ends -->
 
@@ -77,7 +78,7 @@
           <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/azam-khan-ind/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
           <li><a class="email" aria-label="Email" href="mailto:azamkp05@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li> 
           <li><a class="github" aria-label="GitHub" href="https://github.com/AzamKhan5" target="_blank"><i class="fab fa-github"></i></a></li>
-          <!-- <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
+          <li><a class="twitter" aria-label="Twitter" href="https://x.com/AZAMKHAN612147" target="_blank"><i class="fab fa-twitter"></i></a></li>
           <!-- <li><a class="telegram" aria-label="Telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
           <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev"><i class="fab fa-instagram" target="_blank"></i></a></li> -->
         </ul>
@@ -101,17 +102,17 @@
     </div>
     <div class="content">
         <h3>I'm Azam Khan</h3>
-        <span class="tag">Data Science & Analytics Explorer | Expanding Skills in ML, Visualization & Predictive Insights</span>
-        <p>I am a results-driven Machine Learning and Data Science enthusiast with a solid foundation in data manipulation, visualization, and predictive analytics. Skilled in Python, Scikit-learn, TensorFlow, Power BI, and Tableau, I have hands-on experience developing ML models with up to 93% accuracy, creating interactive dashboards, and performing deep-dive analyses on large datasets. I excel at transforming complex data into clear, actionable insights that drive smarter business decisions.</p>
-        
-        <div class="box-container">
+        <span class="tag">Data Science & ML Explorer | NLP & Deep Learning Enthusiast </span>
+        <p>I specialize in turning complex data into actionable insights through Machine Learning, NLP, and Deep Learning (CNN, RNN). Skilled in Python, Scikit-learn, TensorFlow, Power BI, and Tableau, I’ve built ML models with up to 93% accuracy, designed interactive dashboards, and uncovered trends in large datasets. My passion lies in bridging data and decision-making through predictive analytics and visualization.</p>
+        <p></p>
+        <!-- <div class="box-container">
             <div class="box">
               <p><span> Email : </span> azamkp05@gmail.com</p>
             </div>
-        </div>
+        </div> -->
         
-        <div class="resumebtn">
-            <a href="https://drive.google.com/file/d/1opzf6ZZwFT4Ok69uQ9ue6uThqxLN3jDR/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+       <div class="resumebtn">
+            <a href="https://drive.google.com/file/d/193gBT8oQP3jhpLJFA4TalW8oFlNMj3d8/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
                 <i class="fas fa-chevron-right"></i>
             </a>
         </div>
@@ -297,14 +298,15 @@
   <h1 class="heading my-5"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
     <p class="qoute">Education’s purpose is to replace an empty mind with an open one.</p>
     <div class="box-container">
+      <!-- <div class="rgpv"><img src="lang_icon/logo.png" alt="" width="60px" class=""> <span class="tag">Rajiv Gandhi Proudyogiki Vishwavidyalaya</span></div> -->
     <div class="box">
         <div class="image">
-        <img draggable="false" src="sgs_img.jpeg" alt="">
+        <img draggable="false" src="lang_icon/logo.png" alt="rgpv_logo">
         </div>
         <div class="content">
         <h3>Bachelor of Technology (Honors) in Computer Science & Engineering</h3>
-        <p>Shri Guru Sandipani Institute of Technology and Science | Ujjain</p>
-        <h4> CGPA: 7.68 | 2021-2025</h4>
+        <h4>Shri Guru Sandipani Institute of Technology and Science | Ujjain</h4>
+        <h4 class="cgpa"> CGPA: 7.68 | 2021-2025</h4>
         <p class="text-muted mt-2">Mastered advanced topics in Machine Learning, IoT, and Data Analytics, building a strong foundation for innovative solutions.</p>
         </div>
     </div>
@@ -314,325 +316,460 @@
 
   <!-- Experience -->
 
-  <section class="experience container" id="experience">
-  <h2 class="heading my-5"><i class="fas fa-briefcase"></i> Experience </h2>
-    <div class="row">    
+  <!-- Experience -->
+<section class="experience container" id="experience">
+  <h2 class="heading my-5"><i class="fas fa-briefcase"></i> My <span>Experience</span></h2>
+  <div class="row">
     <div class="content">
-        <h3>Machine Learning Engineer</h3>
-        <h4>Internship</h4>
-        <img src="lang_icon/robotrinx.jpeg" alt="" width="40px">  <span class="tag">ROBOTRONIX ENGINEERING TECH PVT LTD | Aug 2024- Oct 2024</span>
-        <p>As a Machine Learning Engineer Intern, I developed and deployed machine learning models to solve real-world problems, enhancing my skills in data preprocessing, model training, and evaluation. I collaborated with cross-functional teams to integrate machine learning solutions into existing systems, ensuring scalability and performance.</p>
-        
-        <p>During my internship, I significantly boosted the accuracy of a predictive model by 15% through advanced feature engineering techniques and meticulous hyperparameter tuning. This improvement led to more impactful business insights and data-driven strategies. I developed predictive analytics solutions using models such as Decision Trees, Random Forests, and Support Vector Machines (SVM), which played a key role in enhancing operational decision-making. Additionally, I conducted exploratory data analysis (EDA) on a dataset of over 50,000 records, uncovering critical customer behavior trends that informed and optimized marketing strategies. To support data accuracy and integrity, I also crafted efficient SQL queries for data extraction and validation, ensuring the analysis was built on clean, reliable datasets.</p>
-        <div class="box-container">
-            <div class="box">
-              <p><span> Place : </span> Indore, India - 452001</p>
-            </div>
+      <div class="experience-card">
+        <div class="card-header">
+          <img src="lang_icon/robotrinx.jpeg" alt="Robotronix Engineering Tech Pvt Ltd Logo" width="65" height="65">
+          <div class="company-info">
+            <h3>Machine Learning Engineer</h3>
+            <h4>Internship</h4>
+            <span class="company-name">Robotronix Engineering Tech Pvt Ltd</span>
+            <span class="duration">Aug 2024 – Oct 2024</span>
+          </div>
         </div>
-
+        <div class="card-body">
+          <ul class="skills-list mb-3">
+            <li class="skills-badge">Python</li>
+            <li class="skills-badge">Machine Learning</li>
+            <li class="skills-badge">scikit-learn</li>
+            <li class="skills-badge">Data Analysis</li>
+            <li class="skills-badge">Flask</li>
+            <li class="skills-badge">MySQL</li>
+            <li class="skills-badge">pandas</li>
+            <li class="skills-badge">NumPy</li>
+            <li class="skills-badge">Seaborn</li>
+            <li class="skills-badge">Matplotlib</li>
+            <li class="skills-badge">EDA</li>
+            <li class="skills-badge">MS Excel</li>
+            <li class="skills-badge">Git</li>
+            <li class="skills-badge">GitHub</li>
+          </ul>
+          <ul class="achievements">
+            <li>
+              <strong>Developed and deployed</strong> ML models (Decision Trees, Random Forests, SVM) to solve real-world problems.
+            </li>
+            <li>
+              <strong>Boosted</strong> predictive model accuracy by 15% through advanced feature engineering and hyperparameter tuning.
+            </li>
+            <li>
+              <strong>Performed</strong> EDA on 50,000+ records, uncovering customer behavior trends that optimized marketing strategies.
+            </li>
+            <li>
+              <strong>Designed</strong> efficient SQL queries for data extraction and validation, ensuring clean and reliable datasets.
+            </li>
+            <li>
+              <strong>Collaborated</strong> with cross-functional teams to integrate ML solutions into scalable systems.
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer">
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Indore, India – 452001</span>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
+  </div>
 </section>
+<!-- Experience End -->
 
 <!-- Experience End -->
 
   <!-- Projects -->
-  <section id="work" class=" work my-5">
-      <h2 class="heading"><i class="fa fa-laptop-code"></i>Projects </h2>
-
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+  <section id="projects" class="work my-5">
+  <h2 class="heading mb-5"><i class="fa fa-laptop-code"></i> My <span>Projects</span></h2>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
       <div class="col">
-            <div class="card" style="width: 35rem;">
-              <img src="project\Sentimental Analysis.png" class="card-img-top" alt="Sentimental Analysis">
-              <div class="card-body">
-                <h5 class="card-title">Sentimental Analysis on Movie Reviews - NLP</h5>
-                <p class="card-text">Built an RNN-based deep learning model in TensorFlow to classify movie reviews as positive or negative.</p>
-                <a href="https://github.com/AzamKhan5/Sentiment-Analysis-using-LSTM-NLP-.git" class="btn btn-primary">View Project</a>
-              </div>
-            </div>
-          </div>
-        <div class="col">
-            <div class="card" style="width: 35rem;">
-              <img src="project\Language Detect.png" class="card-img-top" alt="Language Detect">
-              <div class="card-body">
-                <h5 class="card-title">Language Detection Web App</h5>
-                <p class="card-text">This project detects the language of a given text input. It is powered by a Multinomial Naive Bayes model trained on multilingual text data.</p>
-                <a href="https://github.com/AzamKhan5/Language-Detection.git" class="btn btn-primary">View Project</a>
-              </div>
-            </div>
-          </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="project\Health Care.png" class="card-img-top" alt="Health Care Prediction App">
-            <div class="card-body">
-              <h5 class="card-title">Predictive Health Risk Assessment System</h5>
-              <p class="card-text">Built a Flask-based ML web app predicting five major diseases with 93% accuracy using SVM and KNN.</p>
-              <a href="https://github.com/AzamKhan5/Health-Care-Prediction-Website.git" class="btn btn-primary">View Project</a>
-            </div>
+        <div class="card h-100 glass-card">
+          <img src="project/Sentimental Analysis.png" class="card-img-top hover-scale" alt="Sentimental Analysis">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Sentimental Analysis on Movie Reviews - NLP</h5>
+            <p class="card-text flex-grow-1">RNN-based TensorFlow model for positive/negative movie review classification using NLP.</p>
+            <ul class="skills-list mb-3">
+            <li class="skills-badge">NLP</li>
+            <li class="skills-badge">Python</li>
+            <li class="skills-badge">TensorFlow</li>
+            <li class="skills-badge">LSTM</li>
+            <li class="skills-badge">Streamlit</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/Sentiment-Analysis-using-LSTM-NLP-.git" class="btn btn-primary mt-auto">View Project</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="project\House Price Prediction.png" class="card-img-top" alt="House Image">
-            <div class="card-body">
-              <h5 class="card-title">Real Estate Price Estimation Model</h5>
-              <p class="card-text">Built a regression model using Scikit-learn to estimate housing prices by analyzing features like location, area, and amenities.</p>
-              <a href="https://github.com/AzamKhan5/House-Price-Prediction.git" class="btn btn-primary">View Project</a>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/Language Detect.png" class="card-img-top hover-scale" alt="Language Detect">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Language Detection Web App</h5>
+            <p class="card-text flex-grow-1">Multinomial Naive Bayes web app for real-time text language detection across multiple languages.</p>
+          <ul class="skills-list mb-3">
+            <li class="skills-badge">NLP</li>
+            <li class="skills-badge">Python</li>
+            <li class="skills-badge">TensorFlow</li>
+            <li class="skills-badge">Naive Bayes</li>
+            <li class="skills-badge">Streamlit</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/Language-Detection.git" class="btn btn-primary mt-auto">View Project</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="project/customer_churn.png" class="card-img-top" alt="Churn Image">
-            <div class="card-body">
-              <h5 class="card-title">Customer Churn Forecasting</h5>
-              <p class="card-text">Built a churn prediction model using deep learning, achieving 90% accuracy, and enabled real-time predictions through input-based processing.</p>
-              <a href="https://github.com/AzamKhan5/Churn-Prediction-Web-App-using-Deep-Learning.git" class="btn btn-primary">View Project</a>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/Health Care.png" class="card-img-top hover-scale" alt="Health Care Prediction App">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Predictive Health Risk Assessment System</h5>
+            <p class="card-text flex-grow-1">Flask ML app predicting five diseases at 93% accuracy with SVM and KNN.</p>
+            <ul class="skills-list mb-3">
+              <li class="skills-badge">Python</li>
+              <li class="skills-badge">pandas</li>
+              <li class="skills-badge">scikit-learn</li>
+              <li class="skills-badge">Flask</li>
+              <li class="skills-badge">HTML/CSS</li>
+            <li class="skills-badge">Bootstrap</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/Health-Care-Prediction-Website.git" class="btn btn-primary mt-auto">View Project</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="project/banking_dashboard.png" class="card-img-top" alt="banking_dashboard">
-            <div class="card-body">
-              <h5 class="card-title">Banking Dashboard</h5>
-              <p class="card-text">The project aims to develop a foundational understanding of risk analytics in the banking and financial services industry.</p>
-              <a href="https://github.com/AzamKhan5/Banking-Dashboard-using-Power-BI.git" class="btn btn-primary">View Project</a>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/House Price Prediction.png" class="card-img-top hover-scale" alt="House Image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Real Estate Price Estimation Model</h5>
+            <p class="card-text flex-grow-1">Scikit-learn regression model for housing price prediction from location, area, and amenities.</p>
+            <ul class="skills-list mb-3">
+              <li class="skills-badge">Python</li>
+              <li class="skills-badge">pandas</li>
+              <li class="skills-badge">scikit-learn</li>
+              <li class="skills-badge">Flask</li>
+              <li class="skills-badge">HTML/CSS</li>
+            <li class="skills-badge">Bootstrap</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/House-Price-Prediction.git" class="btn btn-primary mt-auto">View Project</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="project/Ola Dashboard.png" class="card-img-top" alt="Ola Ride-Sharing Analytics">
-            <div class="card-body">
-              <h5 class="card-title">Ola Ride-Sharing Analytics</h5>
-              <p class="card-text">Analyzed 100k+ ride records to optimize pricing and demand forecasting, building a dynamic Power BI KPI dashboard.</p>
-              <a href="https://github.com/AzamKhan5/Ola-Data-Analytics-Project.git" class="btn btn-primary">View Project</a>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/customer_churn.png" class="card-img-top hover-scale" alt="Churn Image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Customer Churn Forecasting</h5>
+            <p class="card-text flex-grow-1">Deep learning model with 90% accuracy for real-time customer churn prediction and retention.</p>
+            <ul class="skills-list mb-3">
+              <li class="skills-badge">Python</li>
+              <li class="skills-badge">pandas</li>
+              <li class="skills-badge">TensorFlow</li>
+              <li class="skills-badge">scikit-learn</li>
+              <li class="skills-badge">Flask</li>
+              <li class="skills-badge">HTML/CSS</li>
+            <li class="skills-badge">Bootstrap</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/Churn-Prediction-Web-App-using-Deep-Learning.git" class="btn btn-primary mt-auto">View Project</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="project/Credit Card Dash.png" class="card-img-top" alt="Credit Card Transactions Dashboard">
-            <div class="card-body">
-              <h5 class="card-title">Credit Card Transactions Metrics Dashboard</h5>
-              <p class="card-text">Developed a Power BI dashboard for 10k+ transactions, enhancing fraud detection and financial reporting.</p>
-              <a href="https://github.com/AzamKhan5/Credit_Card_Weekly_Report.git" class="btn btn-primary">View Project</a>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/banking_dashboard.png" class="card-img-top hover-scale" alt="banking_dashboard">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Banking Dashboard</h5>
+            <p class="card-text flex-grow-1">The project aims to develop a foundational understanding of risk analytics in the banking and financial services industry.</p>
+            <ul class="skills-list mb-3">
+              <li class="skills-badge">MS Excel</li>
+              <li class="skills-badge">pandas</li>
+              <li class="skills-badge">SQL</li>
+              <li class="skills-badge">Power BI</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/Banking-Dashboard-using-Power-BI.git" class="btn btn-primary mt-auto">View Project</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="project/Power BI HR Analytics.png" class="card-img-top" alt="HR Data Analytics Dashboard">
-            <div class="card-body">
-              <h5 class="card-title">Power BI HR Attrition Analysis</h5>
-              <p class="card-text">Created an interactive Power BI dashboard to track employee attrition, enabling proactive HR strategies.</p>
-              <a href="https://github.com/AzamKhan5/HR-Data-Analytics---Attrition-Analysis.git" class="btn btn-primary">View Project</a>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/Ola Dashboard.png" class="card-img-top hover-scale" alt="Ola Ride-Sharing Analytics">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Ola Ride-Sharing Analytics</h5>
+            <p class="card-text flex-grow-1">Analyzed 100k+ ride records to optimize pricing and demand forecasting, building a dynamic Power BI KPI dashboard.</p>
+            <ul class="skills-list mb-3">
+              <li class="skills-badge">MS Excel</li>
+              <li class="skills-badge">pandas</li>
+              <li class="skills-badge">Power BI</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/Ola-Data-Analytics-Project.git" class="btn btn-primary mt-auto">View Project</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="project/HR Attrition.png" class="card-img-top" alt="HR Data Analytics Dashboard">
-            <div class="card-body">
-              <h5 class="card-title">Tableau HR Attrition Analysis</h5>
-              <p class="card-text">The goal of this project is to provide HR professionals with actionable insights into the workforce.</p>
-              <a href="https://github.com/AzamKhan5/HR-Analysis-using-Tableau.git" class="btn btn-primary">View Project</a>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/Credit Card Dash.png" class="card-img-top hover-scale" alt="Credit Card Transactions Dashboard">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Credit Card Transactions Metrics Dashboard</h5>
+            <p class="card-text flex-grow-1">Developed a Power BI dashboard for 10k+ transactions, enhancing fraud detection and financial reporting.</p>
+            <ul class="skills-list mb-3">
+              <li class="skills-badge">MS Excel</li>
+              <li class="skills-badge">pandas</li>
+              <li class="skills-badge">SQL</li>
+              <li class="skills-badge">Power BI</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/Credit_Card_Weekly_Report.git" class="btn btn-primary mt-auto">View Project</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="project/Food Website.png" class="card-img-top" alt="Restaurant Management System">
-            <div class="card-body">
-              <h5 class="card-title">Restaurant Management System</h5>
-              <p class="card-text">Designed a responsive front-end interface with Bootstrap for efficient restaurant operations.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/Power BI HR Analytics.png" class="card-img-top hover-scale" alt="HR Data Analytics Dashboard">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Power BI HR Attrition Analysis</h5>
+            <p class="card-text flex-grow-1">Created an interactive Power BI dashboard to track employee attrition, enabling proactive HR strategies.</p>
+            <ul class="skills-list mb-3">
+              <li class="skills-badge">MS Excel</li>
+              <li class="skills-badge">pandas</li>
+              <li class="skills-badge">SQL</li>
+              <li class="skills-badge">Power BI</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/HR-Data-Analytics---Attrition-Analysis.git" class="btn btn-primary mt-auto">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/HR Attrition.png" class="card-img-top hover-scale" alt="HR Data Analytics Dashboard">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Tableau HR Attrition Analysis</h5>
+            <p class="card-text flex-grow-1">The goal of this project is to provide HR professionals with actionable insights into the workforce.</p>
+            <ul class="skills-list mb-3">
+              <li class="skills-badge">MS Excel</li>
+              <li class="skills-badge">pandas</li>
+              <li class="skills-badge">SQL</li>
+              <li class="skills-badge">Tableau</li>
+          </ul>
+            <a href="https://github.com/AzamKhan5/HR-Analysis-using-Tableau.git" class="btn btn-primary mt-auto">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 glass-card">
+          <img src="project/Food Website.png" class="card-img-top hover-scale" alt="Restaurant Management System">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Restaurant Management System</h5>
+            <p class="card-text flex-grow-1">Designed a responsive front-end interface with Bootstrap for efficient restaurant operations.</p>
+           <ul class="skills-list mb-3">
+              <li class="skills-badge">HTML</li>
+              <li class="skills-badge">CSS</li>
+              <li class="skills-badge">JavaScript</li>
+              <li class="skills-badge">Bootstrap</li>
+              <li class="skills-badge">Canva</li>
+          </ul>
+            <a href="#" class="btn btn-primary mt-auto">View Project</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+  <!-- Projects End -->
 
   <!-- Certifications -->
 <section class="certificate my-5" id="certificate">
-  <h2 class="heading text-center mb-5"><i class="fas fa-certificate"></i> Certificates <span>Earned</span></h2>   <div class="container">
-    <div class="">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Infosys Supervised_ML.png" class="card-img-top" alt="Supervised_ML Certificate">
-            <div class="card-body">
-              <h5 class="card-title">Supervised ML using Python</h5>
-              <p class="card-text">Infosys Springboard</p>
-              <a href="" class="btn btn-primary">View Credential</a>
-            </div>
+  <h2 class="heading text-center mb-5"><i class="fas fa-certificate"></i> Certificates <span>Earned</span></h2>   
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/GenAI_For_DS.png" class="card-img-top hover-scale" alt="Supervised_ML Certificate">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Generative AI for Data Science</h5>
+            <p class="card-text flex-grow-1"><img src="lang_icon/Microsoft_logo.svg.png" alt="" width="30px"> Microsoft</p>
+            <a href="https://coursera.org/verify/B1L4I1H1C75D" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Infosys ML.png" class="card-img-top" alt="ML Certification">
-            <div class="card-body">
-              <h5 class="card-title">Machine Learning using Python</h5>
-              <p class="card-text">Infosys Springboard</p>
-              <a href="" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Infosys Supervised_ML.png" class="card-img-top hover-scale" alt="Supervised_ML Certificate">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Supervised ML using Python</h5>
+            <p class="card-text flex-grow-1"><img src="lang_icon/springboard-logo.png" alt="" width="40px"> Infosys Springboard</p>
+            <a href="" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Microsoft Data Analytics.png" class="card-img-top" alt="Microsoft Data Analysis Certification">
-            <div class="card-body">
-              <h5 class="card-title">Data Analysis by MS</h5>
-              <p class="card-text">Microsoft and LinkedIn</p>
-              <a href="https://www.linkedin.com/learning/certificates/2ebd209a4bc46ee466d96fa23e1ecc2474005fea36c3487f36319eda0a70134b?trk=share_certificate
-" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Infosys ML.png" class="card-img-top hover-scale" alt="ML Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Machine Learning using Python</h5>
+            <p class="card-text flex-grow-1"><img src="lang_icon/springboard-logo.png" alt="" width="40px"> Infosys Springboard</p>
+            <a href="" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Power_BI.png" class="card-img-top" alt="Power BI Essential Training">
-            <div class="card-body">
-              <h5 class="card-title">Power BI Essential Training</h5>
-              <p class="card-text">LinkedIn Learning</p>
-              <a href="https://www.linkedin.com/learning/certificates/a02c3eb1da9d0af501ec5cb2203d63617aa23fcc10d1aeddc457025e96133a3f?trk=share_certificate" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Microsoft Data Analytics.png" class="card-img-top hover-scale" alt="Microsoft Data Analysis Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Data Analysis by Microsoft</h5>
+            <p class="card-text flex-grow-1"><img src="lang_icon/Microsoft_logo.svg.png" alt="" width="30px"> Microsoft and LinkedIn</p>
+            <a href="https://www.linkedin.com/learning/certificates/2ebd209a4bc46ee466d96fa23e1ecc2474005fea36c3487f36319eda0a70134b?trk=share_certificate" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Tableau.png" class="card-img-top" alt="Tableau Certified Data Analyst">
-            <div class="card-body">
-              <h5 class="card-title">Tableau Certified Data Analyst</h5>
-              <p class="card-text">LinkedIn Learning</p>
-              <a href="https://www.linkedin.com/learning/certificates/a290c8825b9ab6b9c7d0f145cb687d148eeecf14f3e5d4f58ac57a4b2f680d97?trk=share_certificate" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Power_BI.png" class="card-img-top hover-scale" alt="Power BI Essential Training">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Power BI Essential Training</h5>
+            <p class="card-text flex-grow-1"><img src="lang_icon/LinkedIn_logo.png" alt="" width="25px"> LinkedIn Learning</p>
+            <a href="https://www.linkedin.com/learning/certificates/a02c3eb1da9d0af501ec5cb2203d63617aa23fcc10d1aeddc457025e96133a3f?trk=share_certificate" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-          <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Infosys Power_BI.png" class="card-img-top" alt="Infosys Certified Power BI">
-            <div class="card-body">
-              <h5 class="card-title">Power BI by Infosys</h5>
-              <p class="card-text">Infosys Springboard</p>
-              <a href="" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Tableau.png" class="card-img-top hover-scale" alt="Tableau Certified Data Analyst">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Tableau Certified Data Analyst</h5>
+            <p class="card-text flex-grow-1"><img src="lang_icon/LinkedIn_logo.png" alt="" width="25px"> LinkedIn Learning</p>
+            <a href="https://www.linkedin.com/learning/certificates/a290c8825b9ab6b9c7d0f145cb687d148eeecf14f3e5d4f58ac57a4b2f680d97?trk=share_certificate" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/ETL using Py n SQL.png" class="card-img-top" alt="ETL Certification">
-            <div class="card-body">
-              <h5 class="card-title">ETL using Python & SQL</h5>
-              <p class="card-text">Forage</p>
-              <a href="https://www.linkedin.com/learning/certificates/b666220b23f2398be94cdb971e7a430ceb0dd07de420b0b98c7655ad4841261d?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B9y5xdkuSTu2ZoJJ1mmU4LA%3D%3D" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Infosys Power_BI.png" class="card-img-top hover-scale" alt="Infosys Certified Power BI">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Power BI by Infosys</h5>
+            <p class="card-text flex-grow-1"><img src="lang_icon/springboard-logo.png" alt="" width="40px">Infosys Springboard</p>
+            <a href="" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/HackerRank SQL.png" class="card-img-top" alt="MySQL Certification">
-            <div class="card-body">
-              <h5 class="card-title">MySQL</h5>
-              <p class="card-text">HackerRank</p>
-              <a href="https://www.hackerrank.com/certificates/82f6cd423546" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/ETL using Py n SQL.png" class="card-img-top hover-scale" alt="ETL Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">ETL using Python & SQL</h5>
+            <p class="card-text flex-grow-1"><img src="lang_icon/LinkedIn_logo.png" alt="" width="25px"> LinkedIn Learning</p>
+            <a href="https://www.linkedin.com/learning/certificates/b666220b23f2398be94cdb971e7a430ceb0dd07de420b0b98c7655ad4841261d?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B9y5xdkuSTu2ZoJJ1mmU4LA%3D%3D" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Pwc Data Analytics.png" class="card-img-top" alt="PwC Power BI Certification">
-            <div class="card-body">
-              <h5 class="card-title">PwC Switzerland Power BI</h5>
-              <p class="card-text">Forage</p>
-              <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/4sLyCPgmsy8DA6Dh3/a87GpgE6tiku7q3gu_4sLyCPgmsy8DA6Dh3_E8GjQQrtw6fqrN3Ai_1738057302970_completion_certificate.pdf" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/HackerRank SQL.png" class="card-img-top hover-scale" alt="MySQL Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">MySQL</h5>
+            <p class="card-text flex-grow-1"><img src="lang_icon/hackerrank.png" alt="" width="30px"> HackerRank</p>
+            <a href="https://www.hackerrank.com/certificates/82f6cd423546" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Tata Data Analytics.png" class="card-img-top" alt="Tata Data Visualisation Certification">
-            <div class="card-body">
-              <h5 class="card-title">Tata Data Visualisation</h5>
-              <p class="card-text">Forage</p>
-              <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_E8GjQQrtw6fqrN3Ai_1735754811343_completion_certificate.pdf" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Pwc Data Analytics.png" class="card-img-top hover-scale" alt="PwC Power BI Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">PwC Switzerland Power BI</h5>
+            <p class="card-text flex-grow-1">Forage</p>
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/4sLyCPgmsy8DA6Dh3/a87GpgE6tiku7q3gu_4sLyCPgmsy8DA6Dh3_E8GjQQrtw6fqrN3Ai_1738057302970_completion_certificate.pdf" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Accenture.png" class="card-img-top" alt="Accenture Data Analytics Certification">
-            <div class="card-body">
-              <h5 class="card-title">Accenture Data Analytics</h5>
-              <p class="card-text">Forage</p>
-              <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/T6kdcdKSTfg2aotxT/hzmoNKtzvAzXsEqx8_T6kdcdKSTfg2aotxT_E8GjQQrtw6fqrN3Ai_1738923743919_completion_certificate.pdf" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Tata Data Analytics.png" class="card-img-top hover-scale" alt="Tata Data Visualisation Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Tata Data Visualisation</h5>
+            <p class="card-text flex-grow-1">Forage</p>
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_E8GjQQrtw6fqrN3Ai_1735754811343_completion_certificate.pdf" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Deloitte.png" class="card-img-top" alt="Deloitte Data Analytics Certification">
-            <div class="card-body">
-              <h5 class="card-title">Deloitte Data Analytics</h5>
-              <p class="card-text">Forage</p>
-              <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_E8GjQQrtw6fqrN3Ai_1748675114750_completion_certificate.pdf" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Accenture.png" class="card-img-top hover-scale" alt="Accenture Data Analytics Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Accenture Data Analytics</h5>
+            <p class="card-text flex-grow-1">Forage</p>
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/T6kdcdKSTfg2aotxT/hzmoNKtzvAzXsEqx8_T6kdcdKSTfg2aotxT_E8GjQQrtw6fqrN3Ai_1738923743919_completion_certificate.pdf" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/DS_Py_LU.png" class="card-img-top" alt="Data Science Certification">
-            <div class="card-body">
-              <h5 class="card-title">Data Science using Python</h5>
-              <p class="card-text">LetsUpgrade</p>
-              <a href="" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Deloitte.png" class="card-img-top hover-scale" alt="Deloitte Data Analytics Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Deloitte Data Analytics</h5>
+            <p class="card-text flex-grow-1">Forage</p>
+            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_E8GjQQrtw6fqrN3Ai_1748675114750_completion_certificate.pdf" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/Python_LetsUpgrade.png" class="card-img-top" alt="Python Certification">
-            <div class="card-body">
-              <h5 class="card-title">Python</h5>
-              <p class="card-text">LetsUpgrade</p>
-              <a href="https://www.letsupgrade.in/verify" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/DS_Py_LU.png" class="card-img-top hover-scale" alt="Data Science Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Data Science using Python</h5>
+            <p class="card-text flex-grow-1">LetsUpgrade</p>
+            <a href="" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/SQL great_learning.jpg" class="card-img-top" alt=" Certification">
-            <div class="card-body">
-              <h5 class="card-title">SQL for Data Science</h5>
-              <p class="card-text">Great Learning</p>
-              <a href="https://www.mygreatlearning.com/certificate/LEWNWAYU" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/Python_LetsUpgrade.png" class="card-img-top hover-scale" alt="Python Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text flex-grow-1">LetsUpgrade</p>
+            <a href="https://www.letsupgrade.in/verify" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 35rem;">
-            <img src="Certificate/JS_LU.png" class="card-img-top" alt="JS Certification">
-            <div class="card-body">
-              <h5 class="card-title">JavaScript</h5>
-              <p class="card-text">LetsUpgrade</p>
-              <a href="https://www.letsupgrade.in/verify" class="btn btn-primary">View Credential</a>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/SQL great_learning.jpg" class="card-img-top hover-scale" alt=" Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">SQL for Data Science</h5>
+            <p class="card-text flex-grow-1">Great Learning</p>
+            <a href="https://www.mygreatlearning.com/certificate/LEWNWAYU" class="btn btn-primary mt-auto">View Credential</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="Certificate/JS_LU.png" class="card-img-top hover-scale" alt="JS Certification">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text flex-grow-1">LetsUpgrade</p>
+            <a href="https://www.letsupgrade.in/verify" class="btn btn-primary mt-auto">View Credential</a>
           </div>
         </div>
       </div>
     </div>
-    </div>
-  </section>
-  
+  </div>
+</section>
+<!-- Certifications End -->
 
   <!-- contact section starts -->
 <section class="contact" id="contact">
   
-  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+  <h2 class="heading mb-4"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
   <div class="container">
     <div class="content">
@@ -688,22 +825,22 @@
           <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
           <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
           <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#projects"><i class="fas fa-chevron-circle-right"></i> Projects</a>
           <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
       </div>
 
       <div class="box">
           <h3>contact info</h3>
           <p> <i class="fas fa-phone"></i>+91 7987156588</p>
-          <p> <i class="fas fa-map-marked-alt"></i>Ujjain, India-456550</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Indore, India</p>
           <div class="share">
 
             <a href="mailto:azamkp05@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
               <a href="https://www.linkedin.com/in/azam-khan-ind/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
               <a href="https://github.com/AzamKhan5" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-              <!-- <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
-              <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
-              <a href="https://t.me/lifecode5" class="fab fa-instagram" aria-label="Instagram" target="_blank"></a> -->
+              <a href="https://x.com/AZAMKHAN612147" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <!-- <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a> -->
+              <!-- <a href="https://t.me/lifecode5" class="fab fa-instagram" aria-label="Instagram" target="_blank"></a> -->
           </div>
       </div>
   </div>
@@ -722,7 +859,7 @@
 <script>
     // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Data Analytics", "Machine Learning", "Web Development"],
+    strings: ["Data Analytics", "Machine Learning", "Data Science"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -748,22 +885,3 @@ $(document).ready(function () {
   </script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
